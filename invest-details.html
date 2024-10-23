@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investment Details - Kayak Rentals</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Investment Details</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="invest.html">Invest</a></li>
+                <li><a href="rent.html">Rent a Kayak</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Why Invest With Us?</h2>
+            <p>Our kayak rental business offers a unique investment opportunity with high returns and sustainable growth potential. The outdoor water sports industry is booming, and our business model taps into a rapidly growing market.</p>
+        </section>
+
+        <section>
+            <h3>Income and Expense Overview</h3>
+            <table>
+                <tr>
+                    <th>Revenue Source</th>
+                    <th>Amount (Monthly)</th>
+                </tr>
+                <tr>
+                    <td>Kayak Rentals</td>
+                    <td>R15,000</td>
+                </tr>
+                <tr>
+                    <td>Guided Tours</td>
+                    <td>R10,000</td>
+                </tr>
+                <tr>
+                    <td>Private Rentals</td>
+                    <td>R7,500</td>
+                </tr>
+                <tr>
+                    <th>Total Revenue</th>
+                    <th>R32,500</th>
+                </tr>
+            </table>
+
+            <h3>Estimated Expenses</h3>
+            <table>
+                <tr>
+                    <th>Expense Type</th>
+                    <th>Amount (Monthly)</th>
+                </tr>
+                <tr>
+                    <td>Maintenance</td>
+                    <td>R2,000</td>
+                </tr>
+                <tr>
+                    <td>Marketing</td>
+                    <td>R1,500</td>
+                </tr>
+                <tr>
+                    <td>Employee Salaries</td>
+                    <td>R5,000</td>
+                </tr>
+                <tr>
+                    <td>Miscellaneous</td>
+                    <td>R1,000</td>
+                </tr>
+                <tr>
+                    <th>Total Expenses</th>
+                    <th>R9,500</th>
+                </tr>
+            </table>
+
+            <h3>Profit Estimate</h3>
+            <p><strong>Estimated Monthly Profit:</strong> R23,000</p>
+        </section>
+
+        <section id="roi-calculator">
+            <h3>ROI Calculator</h3>
+            <p>Use the calculator below to estimate your return on investment based on the amount you're considering investing.</p>
+            <form>
+                <label for="investment">Enter your investment amount (in Rands):</label>
+                <input type="number" id="investment" name="investment" placeholder="e.g. 50000" required>
+                
+                <label for="roi-percentage">Enter expected ROI percentage (%):</label>
+                <input type="number" id="roi-percentage" name="roi-percentage" placeholder="e.g. 15" required>
+
+                <button type="button" onclick="calculateROI()">Calculate ROI</button>
+            </form>
+
+            <div id="roi-result">
+                <h3>Your Estimated ROI:</h3>
+                <p id="roi-output"></p>
+            </div>
+        </section>
+
+        <section>
+            <h3>Why This is a Great Opportunity</h3>
+            <ul>
+                <li>High demand for outdoor recreational activities.</li>
+                <li>Multiple revenue streams.</li>
+                <li>Proven track record in the water sports industry.</li>
+                <li>Low operational costs with high profit margins.</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h3>Contact Us</h3>
+            <p>For more information or to schedule a meeting, contact us at <a href="mailto:sales@kayakrentals.com">sales@kayakrentals.com</a> or call +27 76 198 5041.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Kayak Rentals - All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
